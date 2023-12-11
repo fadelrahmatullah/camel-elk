@@ -1,1 +1,14 @@
+com\camel\mq\elk\spring\entity\Company.class
+com\camel\mq\elk\spring\service\impl\PostConstructServiceImpl.class
+com\camel\mq\elk\spring\config\EntityRepositoryConfig.class
+com\camel\mq\elk\spring\entity\BaseEntity.class
+com\camel\mq\elk\spring\service\DepartmentService.class
+com\camel\mq\elk\spring\service\CompanyService.class
+com\camel\mq\elk\spring\entity\Department.class
+com\camel\mq\elk\spring\config\JpaRepositoryConfig.class
+com\camel\mq\elk\spring\repository\CompanyRepository.class
+com\camel\mq\elk\spring\service\impl\DepartmentServiceImpl.class
+com\camel\mq\elk\spring\repository\DepartmentRepository.class
+com\camel\mq\elk\spring\service\PostConstructService.class
 com\camel\mq\elk\spring\SpringCamelElkApplication.class
+com\camel\mq\elk\spring\service\impl\CompanyServiceImpl.class
