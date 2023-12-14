@@ -14,7 +14,7 @@ services:
     volumes:
       - elasticsearch_data:/usr/share/elasticsearch/data
     networks:
-      - ice-bda
+      - local-elk
 
   kibana:
     image: docker.elastic.co/kibana/kibana:8.3.3
@@ -27,7 +27,7 @@ services:
     depends_on:
       - elasticsearch
     networks:
-      - ice-bda
+      - local-elk
 
   logstash:
     image: docker.elastic.co/logstash/logstash:8.3.3
@@ -44,11 +44,11 @@ services:
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     networks:
-      - ice-bda
+      - local-elk
     depends_on:
       - elasticsearch
 networks:
-  ice-bda:
+  local-elk:
 volumes:
   elasticsearch_data:
     driver: local
