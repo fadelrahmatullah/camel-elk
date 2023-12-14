@@ -16,7 +16,7 @@ username: admin
 pass: admin123
 
 NOTED:
-If you want to use elk, here are the steps: 
+- If you want to use ELK, here are the steps: 
     1. install docker if not already there
     2. in my repo there is already docker-compose.yml up docker compose "docker-compose up -d" a little long because the image I use from the original ELK
     3. if it runs smoothly the ELK container already exists, open your browser "http://localhost:5601/"
